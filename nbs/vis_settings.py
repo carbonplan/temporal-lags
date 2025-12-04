@@ -29,3 +29,21 @@ line_labels = {
     "activity-emission": "CDR activity emissions",
     "CDR+baseline": "CDR + neutralized fossil emissions",
 }
+
+figsize=(14, 9)
+
+mpl_settings =     {
+        "font.family": "DejaVu Sans",
+        "axes.grid": False,
+        "axes.spines.top": False,
+        "axes.spines.right": False,
+        "axes.linewidth": 1.0,
+        "legend.frameon": False,
+        "font.size": 15,
+        "axes.titlesize": 18,
+        "axes.labelsize": 16,
+        "legend.fontsize": 15,
+        "xtick.labelsize": 14,
+        "ytick.labelsize": 14,
+        "lines.linewidth": 3,
+    }
