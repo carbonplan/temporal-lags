@@ -2,7 +2,7 @@
 
 This repository includes Jupyter notebooks and data for reproducing figures anlyzing the effect of temporal lags in CDR. A paper with these figures is currently posted as a preprint:
 
-B. Cabiyo, F. Chay, C. Field, K. Fingerman, Z. Hausfather, K Hemes, and C. M. Zarakas. Consistent temporal accounting supports credible CDR use. Preprint DOI: [10.70212/cdrxiv.2026302v1](https://doi.org/10.70212/cdrxiv.2026302v1)
+B. Cabiyo, F. Chay, C. Field, K. Fingerman, Z. Hausfather, K. Hemes, and C. M. Zarakas. Consistent temporal accounting supports credible CDR use. Preprint DOI: [10.70212/cdrxiv.2026302v1](https://doi.org/10.70212/cdrxiv.2026302v1)
 
 ## license 
 
