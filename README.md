@@ -18,7 +18,7 @@ The code has been tested on macOS 26.2 (Tahoe). It should work on any system tha
 
 ### hardware
 
-No non-standard hardware is required. All notebooks run on a standard desktop or laptop computer.
+No non-standard hardware is required. All notebooks run on a standard personal computer.
 
 ## installation guide
 
