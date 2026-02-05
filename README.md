@@ -39,8 +39,9 @@ This package uses `uv` for environment management.
 `uv sync --all-groups`
 
 Typical install time is about 1 minute on a normal desktop computer. You can alternatively install dependencies manually and then install the package:
-`cd temporal-lags
-pip install -e .`
+```cd temporal-lags
+pip install -e .
+```
 
 ## demo
 
@@ -48,15 +49,15 @@ pip install -e .`
 
 Run the notebooks in the `nbs/` directory in numbered order. The `0_` prefixed notebooks generate input data, and the `1_` prefixed notebooks run the FaIR model simulations:
 
-1. `0_Generate_data_for_figures_1_and_2.ipynb` — constructs the stylized CDR lag profiles
-2. `0_Modify_emissions_input_files.ipynb` — prepares modified SSP1-2.6 emissions inputs
-3. `1_Run_FaIR_for_figure_3.ipynb` — runs FaIR for the 20-year pulse experiments
-4. `1_Run_FaIR_for_figure_4.ipynb` — runs FaIR for the continuous deployment experiments
-5. `Figure_1.ipynb` through `Figure_4.ipynb` — generate the manuscript figures
+1. `0_Generate_data_for_figures_1_and_2.ipynb`: constructs the stylized CDR lag profiles
+2. `0_Modify_emissions_input_files.ipynb`: prepares modified SSP1-2.6 emissions inputs
+3. `1_Run_FaIR_for_figure_3.ipynb`: runs FaIR for the 20-year pulse experiments
+4. `1_Run_FaIR_for_figure_4.ipynb`: runs FaIR for the continuous deployment experiments
+5. `Figure_1.ipynb` through `Figure_4.ipynb`: generates the manuscript figures
 
 ### expected output
 
-Running the notebooks reproduces Figures 1–4 and Table S1 from the manuscript. Figures are rendered inline in the notebooks and saved in `temporal-lags/figures/`
+Running the notebooks reproduces Figures 1–4 and Table S1 from the manuscript. Figures are rendered inline in the notebooks and saved in `/temporal-lags/figures/`
 
 ### expected run time
 
