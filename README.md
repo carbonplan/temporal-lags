@@ -38,7 +38,7 @@ This package uses `uv` for environment management.
 
 `uv sync --all-groups`
 
-Typical install time is about 1 minute on a normal desktop computer. You can alternatively install dependencies manually and then install the package:
+Typical install time is about 1 minute on a normal personal computer. You can alternatively install dependencies manually and then install the package:
 ```cd temporal-lags
 pip install -e .
 ```
@@ -61,7 +61,7 @@ Running the notebooks reproduces Figures 1–4 and Table S1 from the manuscript.
 
 ### expected run time
 
-The full analysis should take less than 15 minutes on a normal desktop computer, depending on hardware. The FaIR ensemble simulations (841 ensemble members × multiple scenarios) account for most of the run time.
+The full analysis should take less than 15 minutes on a normal personal computer, depending on hardware. The FaIR ensemble simulations (841 ensemble members × multiple scenarios) account for most of the run time.
 
 ## instructions for use
 
